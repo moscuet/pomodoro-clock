@@ -1,0 +1,70 @@
+*{
+    padding: 0; 
+}
+input, button, submit { border:none; outline:none; background: none; } 
+#wrapper{
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #4da185;
+}
+#container {
+font-size: x-large;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#clockHeader{
+    display: flex; flex-wrap: wrap;
+    width:50%;
+    //border: 2px solid red;
+    h2{ width: 100%;}
+    #break {
+     width: 48%;
+     //border: 2px solid blue;
+     #breakBody {
+         display: flex;
+         justify-content: center;
+         #break-length {
+             padding: 5px;
+         }
+     }
+    }
+    #session{
+        width: 48%;
+       // border: 2px solid green;
+       #sessBody {
+        display: flex;
+        justify-content: center;
+       }
+    }
+}
+
+#clockBody{
+    display: flex; flex-wrap: wrap;
+    width:30%;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 20px 0;
+    font-size: x-large;
+    #timer-label{
+        width: 100%;
+    }
+    #time-left{
+        width: 100%;
+
+    }
+} 
+#clock-play{
+    button {
+        border: none;
+        margin: 0px 10px;
+    }
+}
+
+.play, .pause, .reset {
+   background: #4da185;
+
+}
