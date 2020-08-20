@@ -172,7 +172,7 @@ class Timer extends React.Component {
                     <button  id='reset' onClick = {this.resetTimer}>
                         <FontAwesomeIcon icon={faRetweet} size="4x" className={styles.reset}/>
                     </button>          
-                   <audio controls id = "beep" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav" > </audio>
+                   <audio controls style={{display:"none"}} id = "beep" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav" > </audio>
                 </div>
             </div>
         </div>
