@@ -67,6 +67,8 @@ class Timer extends React.Component {
     resetTimer(){
         if (document.getElementById('beep')) {
             document.getElementById('beep').pause();
+            document.getElementById('beep').currentTime = 0
+
         }
         this.setState(
             {
